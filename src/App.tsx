@@ -403,31 +403,32 @@ function App() {
               </div>
 
               {/* Pour les consommateurs finaux */}
+              
               <div className="text-center p-8 rounded-2xl bg-gray-50">
                 <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <ShoppingCart className="w-10 h-10 text-blue-600" />
+                  {/* <ShoppingCart className="w-10 h-10 text-blue-600" /> */}
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">Pour les familles</h3>
+                {/* <h3 className="text-2xl font-bold text-gray-800 mb-6">Pour les familles</h3> */}
                 <div className="space-y-4 text-left">
                   <div className="flex items-center">
-                    <Check className="w-5 h-5 text-green-600 mr-3" />
-                    <span className="text-gray-600">Normes d'hygiène élevées</span>
+                    {/* <Check className="w-5 h-5 text-green-600 mr-3" />
+                    <span className="text-gray-600">Normes d'hygiène élevées</span> */}
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-5 h-5 text-green-600 mr-3" />
-                    <span className="text-gray-600">Qualité premium</span>
+                    {/* <Check className="w-5 h-5 text-green-600 mr-3" />
+                    <span className="text-gray-600">Qualité premium</span> */}
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-5 h-5 text-green-600 mr-3" />
-                    <span className="text-gray-600">Produits 100% traçables</span>
+                    {/* <Check className="w-5 h-5 text-green-600 mr-3" />
+                    <span className="text-gray-600">Produits 100% traçables</span> */}
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-5 h-5 text-green-600 mr-3" />
-                    <span className="text-gray-600">Impact social positif</span>
+                    {/* <Check className="w-5 h-5 text-green-600 mr-3" />
+                    <span className="text-gray-600">Impact social positif</span> */}
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-5 h-5 text-green-600 mr-3" />
-                    <span className="text-gray-600">Agriculture locale</span>
+                    {/* <Check className="w-5 h-5 text-green-600 mr-3" />
+                    <span className="text-gray-600">Agriculture locale</span> */}
                   </div>
                 </div>
               </div>
@@ -586,7 +587,7 @@ function App() {
                 
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Pack Premium</h3>
-                  <div className="text-3xl font-bold text-green-600 mb-4">30,000 MRU</div>
+                  <div className="text-3xl font-bold text-green-600 mb-4"></div>
                 </div>
 
                 <div className="space-y-3 mb-8">
@@ -607,8 +608,8 @@ function App() {
                     <span className="text-gray-700">Commission de 5-7% seulement</span>
                   </div>
                   <div className="flex items-center">
-                    <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    <span className="text-gray-700 font-semibold">Vous gardez 90% de vos gains</span>
+                    {/* <CheckCircle className="w-5 h-5 text-green-500 mr-3" /> */}
+                    {/* <span className="text-gray-700 font-semibold">Vous gardez 93% de vos gains</span> */}
                   </div>
                 </div>
 
@@ -624,7 +625,7 @@ function App() {
               <div className="border-2 border-blue-300 rounded-2xl p-8 bg-gradient-to-br from-blue-50 to-blue-100">
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Pack Starter</h3>
-                  <div className="text-3xl font-bold text-blue-600 mb-4">10,000 MRU</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-4"></div>
                 </div>
 
                 <div className="space-y-3 mb-8">
@@ -820,7 +821,7 @@ function App() {
                 
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Pack Premium</h3>
-                  <div className="text-3xl font-bold text-green-600 mb-4">30,000 MRU</div>
+                  <div className="text-3xl font-bold text-green-600 mb-4"></div>
                 </div>
 
                 <div className="space-y-3 mb-8">
@@ -854,7 +855,7 @@ function App() {
               <div className="border-2 border-blue-300 rounded-2xl p-8 bg-gradient-to-br from-blue-50 to-blue-100">
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">Pack Starter</h3>
-                  <div className="text-3xl font-bold text-blue-600 mb-4">10,000 MRU</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-4"> MRU</div>
                 </div>
 
                 <div className="space-y-3 mb-8">
@@ -1044,8 +1045,8 @@ function App() {
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Pack choisi *</label>
                     <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
-                      <option>Pack Premium - 30,000 MRU</option>
-                      <option>Pack Starter - 10,000 MRU</option>
+                      <option>Pack Premium - </option>
+                      <option>Pack Starter - </option>
                     </select>
                   </div>
                 </div>
